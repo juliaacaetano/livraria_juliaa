@@ -13,14 +13,6 @@ DEBUG = env('DEBUG')
 ALLOWED_HOSTS = env('ALLOWED_HOSTS').split(',')
 DATABASES = {'default': env.db()}
 
-SECRET_KEY = 'django-insecure-03d@i&v2a74!s54=nizbv+1!euhf@j^p3pi(%9_-)=ky2!!b^3'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = ['*']
-
-
 # Application definition
 
 INSTALLED_APPS = [
